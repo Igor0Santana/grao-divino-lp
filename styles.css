@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@700&display=swap');
+
+body{
+    background-color: hsl(60, 96%, 91%);
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+h1{
+    color: #3e2723;
+    font-family:'Playfair Display', serif;
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+a{  
+    background-color: #bfa06b;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px, 30px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 32px;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    text-align: center;
+}
